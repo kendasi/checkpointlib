@@ -21,7 +21,9 @@ Once you've installed the python file containing the client-side code, you'll be
   If you do the first option, and make the value be the integer 0, then it will automatically create a random user key for you. However, if you choose to do the second option, then you can select your own user key.
 * Save your user key for later - you can check just what your key is with ```myCheckpointAccount.key```, which you can use if you want to save to the same key later. However, you can also use ```myCheckpointAccount.url``` to get the full URL of your checkpoint account. Visit that URL to see the progress online from another device (this will be explained more later)
 * Save progress to your key online - to save progress, type:
-  ```myCheckpointAccount.saveCheckpoint("[TYPE THE PROGRESS UPDATE HERE]")```
+  ```
+  myCheckpointAccount.saveCheckpoint("[TYPE THE PROGRESS UPDATE HERE]")
+  ```
   This will save the latest progress update, which you enter as an argument, to your online key (which you can see at the URL which you receive with ```myCheckpointAccount.url```)
 * Clear your checkpoint progress:
   ```
